@@ -1,0 +1,144 @@
+body { 
+  background-color:grey;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.orange-color {
+  color: rgb(244, 242, 232);
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.half-width p {
+  padding-right: 50px;
+}
+
+.half-width img {
+  width: 40%;
+  padding-top: 30px; 
+}
+
+.link-button {
+  text-decoration: none;
+  /* background-color: orange; */
+  background-image: linear-gradient(rgb(228, 219, 217), rgb(31, 37, 18));
+  color: rgba(233, 225, 230, 0.769);
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.top-banner {
+  
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.dream-big {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  box-sizing: border-box;
+}
+
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  box-sizing: border-box;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+  text-align: justify;
+}
+
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+
+#web-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+}
+
+.experience-area h1 {
+  padding: 5%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0b557f;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #15e1d3;
+  color: white;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+}
